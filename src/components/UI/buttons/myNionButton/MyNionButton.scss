@@ -1,0 +1,12 @@
+.myNionButton {
+    border: none;
+    background: linear-gradient(262.17deg, #21D4FD -9.98%, #E40ECF 62.2%);
+    border-radius: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover{
+        color: #21D4FD;
+    }
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "AdineueprocyrBold";
+    src: url("@/assets/fonts/adineueprocyr_boldweb.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "AdineueprocyrLight";
+    src: url("@/assets/fonts/adineueprocyr_lightweb.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "AdineueprocyrBold";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    background-color: #0A0914;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul,li,h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  

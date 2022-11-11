@@ -1,0 +1,25 @@
+.home-subscribe__decor-wrapper {
+    position: relative;
+}
+
+.home-subscribe__circle-red {
+    width: 984px;
+    height: 984px;
+    background: #E40ECF;
+    filter: blur(320.5px);
+    position: absolute;
+    left: -800px;
+    top: -700px;
+}
+
+
+
+.home-subscribe__circle-blue {
+    width: 984px;
+    height: 984px;
+    background: #00B4DD;
+    filter: blur(320.5px);
+    position: absolute;
+    right: -900px;
+    top: -700px;
+}

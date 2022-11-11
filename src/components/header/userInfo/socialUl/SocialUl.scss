@@ -1,0 +1,23 @@
+.social-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-item {
+    cursor: pointer;
+
+    &:hover {
+        svg {
+            path {
+                transition: all 0.3s;
+                fill: #21D4FD;
+            }
+        }
+    }
+
+}
+
+.telegram {
+    margin: 0 17px;
+}

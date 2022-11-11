@@ -1,0 +1,56 @@
+.home-subscribe__form {
+    background: linear-gradient(180deg, rgba(7, 196, 239, 0.61) 0%, rgba(7, 196, 239, 0.25) 100%);
+    border-radius: 8px;
+    padding: 60px 61px 60px 65px;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        background: none;
+        padding: 15px 33px;
+        border: 1px solid #21D4FD;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+        max-width: 770px;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #FFFFFF;
+        }
+    }
+
+    button {
+        border: none;
+        background: #21D4FD;
+        border-radius: 8px;
+        padding: 16px 75px 16px 50px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+        cursor: pointer
+    }
+}
+
+.home-subscribe__btn_inner {
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+
+    svg{
+        position: absolute;
+        top: 27px;
+        right: 41px;
+    }
+
+    &:hover {
+        scale: 1.1;
+    }
+}

@@ -1,0 +1,42 @@
+.section-home__cContest {
+    margin-top: 62px;
+    border-top: 1px solid #4C4A5F;
+}
+
+.home-cContest__title {
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+
+.home-cContest__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 49px;
+    margin-bottom: 87px;
+}
+
+.home-cContest__button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-cContest__button {
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 14px 70px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover{
+        scale: 1.1;
+    }
+}

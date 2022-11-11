@@ -1,0 +1,20 @@
+
+.header-user__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-user__lang {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F5F5F5;
+    margin: 0 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover{
+        color: #21D4FD;
+    }
+}

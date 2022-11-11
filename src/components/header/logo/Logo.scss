@@ -1,0 +1,28 @@
+.header-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        svg {
+            path {
+                transition: all 0.5s;
+                fill: #21D4FD
+            }
+        }
+
+        p {
+            transition: all 0.5s;
+            color: #21D4FD;
+        }
+    }
+}
+
+.header-logo_text {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    margin-left: 8.5px;
+}

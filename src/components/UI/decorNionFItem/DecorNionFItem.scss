@@ -1,0 +1,30 @@
+.decor-nion-F-item{
+    position: relative;
+    max-width: 589px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    svg{
+        margin: 120px 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__bgCircle{
+        top: -80px;
+    }
+
+    &__glare{
+        left: -20px;
+    }
+
+    &__bGGlare{
+        left: -190px;
+        top: -20px;
+    }
+}
+
+.decor-nion-F-item__img{
+    position: absolute;
+}

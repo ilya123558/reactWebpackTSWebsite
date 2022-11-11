@@ -1,0 +1,20 @@
+.home-top__title-wrap {
+    padding-top: 150px;
+}
+
+.home-top__title-nion {
+    background: linear-gradient(360deg, #21D4FD 30%, #E40ECF 70%), #FFFFFF;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 451px;
+    margin-bottom: 56px;
+}
+
+.home-top__title,
+.home-top__title-nion {
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 75px;
+
+}
